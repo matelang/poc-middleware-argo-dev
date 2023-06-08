@@ -15,8 +15,8 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.14.2
+      - name: example
+        image: docker pull ghcr.io/matelang/java-spring-example:db5776cd7f28cd2ed4f0a9b4f2a285dbaf3896975deff20ddd64b3d816886041
         ports:
         - containerPort: 80
 
