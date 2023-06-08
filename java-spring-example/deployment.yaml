@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: example
-        image: docker pull ghcr.io/matelang/java-spring-example:main
+        image: ghcr.io/matelang/java-spring-example:main
         ports:
         - containerPort: 80
 
